@@ -1,7 +1,7 @@
 ---
 AWSTemplateFormatVersion: 2010-09-09
 
-Description: EKSWSV1
+Description: myEKSWSV1
 
 
 Parameters:
@@ -37,6 +37,7 @@ Parameters:
     MinLength: 3
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub personal access token
+    Default : 
 
   GitHubUser:
     Type: String
